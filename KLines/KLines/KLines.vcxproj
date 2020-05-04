@@ -14,6 +14,7 @@
     <ProjectGuid>{0B0645EE-AAE7-4042-B0C5-49BE275513FE}</ProjectGuid>
     <RootNamespace>KLines</RootNamespace>
     <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -21,6 +22,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -28,6 +30,7 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -99,6 +102,8 @@
     <None Include="res\KLines.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cbackground.h" />
+    <ClInclude Include="CpwdVerify.h" />
     <ClInclude Include="KLines.h" />
     <ClInclude Include="KLinesDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -109,6 +114,8 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cbackground.cpp" />
+    <ClCompile Include="CpwdVerify.cpp" />
     <ClCompile Include="KLines.cpp" />
     <ClCompile Include="KLinesDlg.cpp" />
     <ClCompile Include="stdafx.cpp">

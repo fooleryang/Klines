@@ -112,8 +112,11 @@ BOOL CKLinesDlg::OnInitDialog()
 	CSize size(rect.Width()/2-2,30);//-2是为了避免溢出显示，/2是设置了只有两个page
 	m_tab.SetItemSize(size);
 	m_tab.Show();
-
-
+	
+//2.K线图部分的控件初始设置
+	//给搜索框加默认值
+	m_tab_kline.m_kline_searchBox.SetWindowTextW(TEXT("股票名或编号"));
+	
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
 

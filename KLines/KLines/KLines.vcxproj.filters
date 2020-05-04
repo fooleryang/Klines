@@ -48,6 +48,12 @@
     <ClInclude Include="tab_number.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CpwdVerify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cbackground.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="KLines.cpp">
@@ -66,6 +72,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="tab_number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CpwdVerify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cbackground.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
